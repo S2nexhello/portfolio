@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+*::selection {
+  background: #2b3dda;
+  color: #fff;
+}
+
+html, body { overflow-x: hidden;}
+
+body {position: relative;}
+
+
+/* navbar section  */
+.port-menu {
+  position: fixed;
+  top: 35px;
+  left: 0%;
+  z-index: 5;
+  }
+
+.port-menu .menu-bt {
+  border: 4px solid transparent;
+  border-radius: 100px;
+  transition:0.3s ease-out !important;
+ 
+}
+
+.port-menu .menu-bt .icon {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 37px;
+  text-align: center;
+  box-shadow: 0px 4px 13px -2px rgba(19, 16, 34, 0.06), 0px 4.8px 24.3px -6px rgba(19, 16, 34, 0.1);
+}
+.port-menu .menu-bt p {
+  display: none;
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  color: #fff;
+  padding-left: 10px;
+}
+.port-menu .menu-bt:hover {
+  box-shadow: 0px 4px 13px -2px rgba(19, 16, 34, 0.06), 0px 4.8px 24.3px -6px rgba(19, 16, 34, 0.1);
+  transition: 1s ease-in-out;
+  background-color: #6772E5;
+  padding-right: 45px;
+  border: 4px solid #6772E5;
+}
+.port-menu .menu-bt:hover p {
+  display: block;
+  transition: 0.3s ease-out;
+}
+/* navbar section  */
+
+/* hero section */
+
+
+#home .home-content .home-content-1 p{
+    font-size: 50px;
+}
+
+#home h2{
+    font-size: 4rem !important;
+    margin: 30px,0;
+    font-weight: 600;
+    font-family: Dosis;
+    color: rgb(55, 54, 54);
+    
+}
+#home h5{
+    font-family: 'Special Elite',cursive;
+    font-size: 2rem !important;
+    font-weight: 570;
+}
+
+#home p {
+    font-size: 15px;
+}
+
+
+#home {
+    background: url(/image/New\ folder/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 635px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+#home a{
+  font-size: 15px;
+  font-family: Nunito,sans-serif;
+  padding: 5px;
+
+}
+
+#home .profile-head {
+  
+  height: 23rem;
+  position: relative;
+}
+
+#home .profile-head img{
+  border: 5px solid #FEDC5A;
+  object-fit: cover;
+  object-position: center center;
+  color: transparent;
+  transform: translate3d(0px,0px,0px);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#home span{
+  color: #2b3dda;
+}
+
+@media (max-width: 768px) {
+
+  #home{
+    height: 897px;
+  }
+  #home h2 {
+    font-size: 35px;
+  }
+
+  #home h5 {
+    font-size: 20px;
+
+  }
+  #home a{
+    margin-top: 0;
+    font-size:large;
+  }
+
+  #home p {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.port-menu {
+  left: 367px;
+  }
+
+
+}
+
+
+@media (max-width: 1180px) {
+
+
+  #home h2 {
+    font-size: 60px;
+  }
+
+  #home h5 {
+    font-size: 30px;
+
+  }
+}
+/* hero section */
+
+/* company section */
+
+.company {
+  background-image: url(https://img.freepik.com/free-vector/bokeh-defocused-background_23-2148497833.jpg?w=740&t=st=1705468806~exp=1705469406~hmac=f7a847880a7b5e9799b5635e99078c19dfce948e40f373a9e59d7efa6d1c3b86);
+  padding: 12px 0 ;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+ 
+  
+ 
+}
+
+.company img{
+  
+  padding: 15px;
+  max-width: 80%;
+  display: inline-block;
+  filter: grayscale(100);
+
+}
+.company img:hover{
+  filter: none;
+  transform: scale(1.1);
+}
+
+/* company section */
+
+/* about me section */
+#about-me {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.heading-title {
+  padding: 1rem;
+}
+
+.heading-content {
+  font-size: 38px;
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', 'sans-serif';
+}
+
+#about-me p{
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: justify;
+}
+
+
+/* about me section */
+
+/* skill section */
+#skill {
+  background: url(/image/New\ folder/skill-banner.jpg);
+}
+
+#skill .progress{
+  margin: 8px 0px;}
+
+/* project-section */
+#project {
+  padding-bottom: 250px;
+}
+/* project-section */
+
+
+/* footer section */
+#footer {
+  background: url(/image/New\ folder/contact-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#footer .contact-me h2{
+  margin-top: 0;
+  padding-top: 6.25rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  
+}
+
+#footer .contact-me{
+  background:linear-gradient(rgba(22,22,22,0.2),rgba(22,22,22,0.5)), url(/image/New\ folder/contact-me.jpg);
+  margin-top: -150px;
+  background-size: cover;
+  padding-bottom: 40px;
+  border-radius: 20px;
+}
+
+#footer .contact-box{
+  border: 2px dotted rgb(255, 255, 255);
+  border-radius: 4px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding: 18px 30px;
+}
+
+#footer .contact-box a{
+  width: 73px;
+  height: 73px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+#footer .contact-box a:hover{
+  background-color: #6772E5;
+}
+#footer .contact-box a:hover i{
+  color: white;
+}
+
+
+
+
+
+
