@@ -24,6 +24,8 @@ body {
   color: #fff;
 }
 
+/* prevent horizontal scrolling */
+
 html, body { overflow-x: hidden;}
 
 body {position: relative;}
